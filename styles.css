@@ -1,0 +1,39 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Task 1: Semi-Transparent Background */
+.background-fade {
+  background-color: rgba(0, 0, 255, 0.5); /* Semi-transparent blue */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+/* Task 2: Text Shadow for Readability */
+.text-shadow {
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Soft black shadow */
+  font-size: 24px;
+}
+
+/* Task 3: Button Hover Effect */
+.hover-button {
+  background-color: rgba(0, 128, 0, 0.8); /* Solid green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hover-button:hover {
+  background-color: rgba(0, 128, 255, 0.8); /* Turns blue on hover */
+}
